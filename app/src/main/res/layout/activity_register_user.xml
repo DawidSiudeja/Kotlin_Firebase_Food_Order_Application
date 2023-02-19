@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <EditText
-            android:id="@+id/loginUser"
+            android:id="@+id/mailUserRegister"
             android:layout_width="300dp"
             android:layout_height="45dp"
             android:gravity="center_vertical"
@@ -26,38 +26,58 @@
             android:inputType="textEmailAddress"/>
 
         <EditText
-            android:id="@+id/passwordUser"
+            android:id="@+id/nameUserRegister"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:hint="Imię"/>
+
+        <EditText
+            android:id="@+id/surnameUserRegister"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:hint="Nazwisko"/>
+
+        <EditText
+            android:id="@+id/phoneNumberUserRegister"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:hint="Telefon"
+            android:inputType="phone"/>
+
+        <EditText
+            android:id="@+id/passwordUserRegister"
             android:layout_width="300dp"
             android:layout_height="45dp"
             android:layout_marginTop="30dp"
             android:gravity="center_vertical"
             android:hint="Hasło"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/passwordUserRegister2"
+            android:layout_width="300dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center_vertical"
+            android:hint="Powtórz hasło"
             android:inputType="textPassword"/>
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:text="Przypomnij hasło" />
-
         <Button
-            android:id="@+id/LoginUserBtn"
+            android:id="@+id/RegisterUserBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:text="Zaloguj się" />
+            android:text="Zarejestruj konto" />
+
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/registerUser"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:text="Załóż konto"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,11 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.test:annotation:1.0.1@aar">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/cf6e90772ddc78a39ae68780be9a1653/transformed/annotation-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7a43b70190d91b519f4cb45590668985/transformed/annotation-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b2dc7e8bdc4e79d69633c59ab4e7b43e/transformed/annotation-1.0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b2dc7e8bdc4e79d69633c59ab4e7b43e/transformed/annotation-1.0.1/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/b2dc7e8bdc4e79d69633c59ab4e7b43e/transformed/annotation-1.0.1/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/7c04bbe09ea901060edca3f39566c3cb/transformed/annotation-1.0.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7c04bbe09ea901060edca3f39566c3cb/transformed/annotation-1.0.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7c04bbe09ea901060edca3f39566c3cb/transformed/annotation-1.0.1/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
