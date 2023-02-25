@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_add_product.xml" value="0.2109375" />
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_edit.xml" value="0.3625" />
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_edit_products.xml" value="0.225" />
         <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_login_register_user.xml" value="0.22" />
-        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_main.xml" value="0.225" />
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_register_user.xml" value="0.225" />
         <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/activity_restaurant_login.xml" value="0.2109375" />
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/fragment_home.xml" value="0.184375" />
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/fragment_profil.xml" value="0.184375" />
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/layout/list_item_edit.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Dawid/StudioProjects/FoodOrder/app/src/main/res/menu/bottom_nav.xml" value="0.3614583333333333" />
       </map>
     </option>
   </component>

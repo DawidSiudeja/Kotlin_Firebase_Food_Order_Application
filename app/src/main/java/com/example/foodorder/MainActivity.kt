@@ -2,10 +2,10 @@ package com.example.foodorder
 
 import android.content.ContentValues
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.foodorder.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
@@ -26,11 +26,17 @@ class MainActivity : AppCompatActivity() {
 
         turnOnRestaurantAccount()
 
-        mainBinding.logout.setOnClickListener {
+        mainBinding.navLogout.setOnClickListener {
             logout()
         }
 
+        mainBinding.navEdit.setOnClickListener {
+            val intent = Intent(this, AdminListProducts::class.java)
+            startActivity(intent)
+        }
 
+
+        mainBinding.navHome.setTextColor(Color.parseColor("#FF0000"));
         setContentView(mainBinding.root)
     }
 
@@ -52,7 +58,8 @@ class MainActivity : AppCompatActivity() {
                 resturant = document.get("restaurant") as Boolean
 
                 if (resturant == true) {
-                    mainBinding.admin.visibility = View.VISIBLE
+                    mainBinding.navEdit.visibility = View.VISIBLE
+                    mainBinding.navBasket.visibility = View.GONE
                 }
 
             }
