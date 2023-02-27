@@ -61,14 +61,14 @@
 
     <ImageView
         android:id="@+id/editProductImage"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:src="@drawable/ic_launcher_background"/>
 
     <Button
         android:id="@+id/editProductSaveBtn"
